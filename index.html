@@ -16,11 +16,10 @@
     <link type="text/css" rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
     <!-- Open Graph data -->
-    <meta property="og:title" content="Sonsonate Chamber of Commerce" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image"
-        content="https://mediaim.expedia.com/destination/1/48d5737b700661a8688e4d64b497fb04.jpg" />
-    <meta property="og:url" content="https://valeesquivel.github.io/wdd230/" />
+    <meta property="og:title" content="Sonsonate Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://mediaim.expedia.com/destination/1/48d5737b700661a8688e4d64b497fb04.jpg">
+    <meta property="og:url" content="https://valeesquivel.github.io/wdd230/">
 </head>
 
 <body>
@@ -29,16 +28,20 @@
             <img src="images/me.jpeg" alt="Valeria Esquivel" id="imgMe">
         </div>
         <h1>Valeria Esquivel</h1>
+        <div id="mode" title="Dark Mode">☑️</div>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="#">Chamber</a>
-            <a href="week01/chamber-site-plan.html">Site Plan</a>
-            <a href="#">Form</a>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Chamber</a></li>
+                <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+                <li><a href="#">Form</a></li>
+            </ul>
         </nav>
     </header>
     <main>
         <h2 id="subtitle">WDD 230: Web Frontend Development</h2>
-        <hr>
+        <hr class="separator">
         <section class="card" id="learningActs">
             <h3>Learning Activities</h3>
             <ul>
@@ -65,6 +68,7 @@
         <p id="lastModified">Last Modification: </p>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/menu.js"></script>
 </body>
 
 </html>
