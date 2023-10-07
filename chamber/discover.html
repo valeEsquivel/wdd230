@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valeria Esquivel - Sonsonate Chamber of Commerce</title>
+    <meta name="description" content="Sonsonate Chamber of Commerce - Valeria Esquivel">
+    <meta name="author" content="Valeria Esquivel">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="//fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/base.css">
+    <link type="text/css" rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Sonsonate Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://mediaim.expedia.com/destination/1/48d5737b700661a8688e4d64b497fb04.jpg">
+    <meta property="og:url" content="https://valeesquivel.github.io/wdd230/chamber/">
+</head>
+
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/logo.png" alt="Sonsonate Chamber of Commerce Logo">
+            </a>
+            <nav>
+                <button id="menu"></button>
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="discovery">
+            <div class="sidebar">
+                <div class="infoSonso">
+                    <h3>Sonsonate</h3>
+                    <p>Surface Area : <span>232.53 km²</span></p>
+                    <p>Population : <span>71,541 hab</span></p>
+                </div>
+                <div class="flag">
+                    <picture class="picFlag">
+                        <source media="(max-width: 500px)" srcset="images/flag_small.webp">
+                        <source media="(max-width: 850px)" srcset="images/flag_medium.webp">
+                        <img class="imgDiscovery" src="images/flag.webp" alt="Sonsonate Flag" width="1080" height="810"
+                            loading="lazy">
+                        <div class="descriptionPic">
+                            Sonsonate Flag
+                        </div>
+                    </picture>
+                </div>
+                <div class="politicalDivision">
+                    <h3>Political Division</h3>
+                    <ul>
+                        <li>Sonsonate North (4 districts)</li>
+                        <li>Sonsonate Downtown (5 districts)</li>
+                        <li>Sonsonate East (6 districts)</li>
+                        <li>Sonsonate West (1 district)</li>
+                    </ul>
+                </div>
+                <div class="lastVisitDiv">
+                    <p id="lastVisit"></p>
+                </div>
+            </div>
+            <div class="principal">
+                <!-- Ferrocarril -->
+                <picture class="picDiv">
+                    <source media="(max-width: 500px)" srcset="images/ferrocarril_small.webp">
+                    <source media="(max-width: 850px)" srcset="images/ferrocarril_medium.webp">
+                    <img class="imgDiscovery" src="images/ferrocarril_large.webp" alt="Railway Square" width="1080"
+                        height="810" loading="lazy">
+                </picture>
+                <!-- Salinitas -->
+                <picture class="picDiv">
+                    <source media="(max-width: 500px)" srcset="images/salinitas_small.webp">
+                    <source media="(max-width: 850px)" srcset="images/salinitas_medium.webp">
+                    <img class="imgDiscovery" src="images/salinitas_large.webp" alt="Beach" width="1080" height="720"
+                        loading="lazy">
+                </picture>
+                <!-- Portezuelo -->
+                <picture class="picDiv">
+                    <source media="(max-width: 500px)" srcset="images/portezuelo_small.webp">
+                    <source media="(max-width: 850px)" srcset="images/portezuelo_medium.webp">
+                    <img class="imgDiscovery" src="images/portezuelo_large.webp" alt="Portezuelo Park" width="1080"
+                        height="675" loading="lazy">
+                </picture>
+                <!-- Stadium -->
+                <picture class="picDiv">
+                    <source media="(max-width: 500px)" srcset="images/stadium_small.webp">
+                    <source media="(max-width: 850px)" srcset="images/stadium_medium.webp">
+                    <img class="imgDiscovery" src="images/stadium_large.webp" alt="Sonsonate Stadium" width="1024"
+                        height="576" loading="lazy">
+                </picture>
+                <!-- Theater -->
+                <picture class="picDiv">
+                    <source media="(max-width: 500px)" srcset="images/arce_small.webp">
+                    <source media="(max-width: 850px)" srcset="images/arce_medium.webp">
+                    <img class="imgDiscovery" src="images/arce_large.webp" alt="Arce Theater" width="1080" height="810"
+                        loading="lazy">
+                </picture>
+                <!-- Anthony's -->
+                <picture class="picDiv">
+                    <source media="(max-width: 500px)" srcset="images/anthonys_small.webp">
+                    <source media="(max-width: 850px)" srcset="images/anthonys_medium.webp">
+                    <img class="imgDiscovery" src="images/anthonys_large.webp" alt="Anthony's Bakery" width="1024"
+                        height="810" loading="lazy">
+                </picture>
+            </div>
+        </main>
+        <footer>
+            <p id="info">Copyrigth &copy; <span id="year"></span> - Valeria Esquivel - WDD230 Project - Sonsonate
+                Chamber of
+                Commerce (503) 2450-4039</p>
+            <p id="lastModified">Last Modification: </p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img class="media" src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img class="media" src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img class="media" src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+    </div>
+    <script src="scripts/functions.js"></script>
+    <script src="scripts/menu.js"></script>
+</body>
+
+</html>

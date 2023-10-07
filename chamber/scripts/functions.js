@@ -29,3 +29,40 @@ document.getElementById("lastModified").innerHTML = oLastModif;
 
 let year = new Date().getFullYear();
 document.getElementById("year").innerHTML = year;
+
+
+// LOCAL STORAGE
+
+// Using localStorage to store the latest visit date by the client, display one of three possible messages about the time between page visits in the sidebar content area.
+// If this is the user's first visit, display "Welcome! Let us know if you have any questions.".
+// If the amount of time between visits is less than a day, display "Back so soon! Awesome!".
+
+// If the amount of time between visits is less than a week, display "Welcome back! We're glad you're still with us.".
+
+let lastVisit = localStorage.getItem('lastVisit');
+let today = new Date();
+let thisVisit = today.getTime();
+localStorage.setItem('lastVisit', thisVisit);
+let days = 1000 * 60 * 60 * 24;
+let daysSinceLastVisit = Math.round((thisVisit - lastVisit) / days);
+
+if (lastVisit === null) {
+    document.querySelector("#lastVisit").textContent = "Welcome! Let us know if you have any questions.";
+} else if (daysSinceLastVisit < 1) {
+    document.querySelector("#lastVisit").textContent = "Back so soon! Awesome!";
+} else {
+    document.querySelector("#lastVisit").textContent = "You last visited " + daysSinceLastVisit + " days ago.";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
