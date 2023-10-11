@@ -1,0 +1,60 @@
+body {
+    /* centrar elementos */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    text-align: center;
+}
+
+thead td {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: #C78EE3;
+    color: white;
+    padding: 10px;
+}
+
+thead th {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: #E8DAEF;
+    color: black;
+    padding: 10px;
+}
+
+tbody td,
+thead tr {
+    padding: 10px;
+    border-top: 1px solid #004;
+    border-left: 1px solid #004;
+}
+
+thead th {
+    border-left: 1px solid #004;
+}
+
+thead tr {
+    border-right: 1px solid #004;
+}
+
+tbody td:nth-child(even) {
+    border-right: 1px solid #004;
+    border-bottom: 1px solid #004;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #F8F3FB;
+}
+
+tbody tr:last-child {
+    border-bottom: 1px solid #004;
+}
