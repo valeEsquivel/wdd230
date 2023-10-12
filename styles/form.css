@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Raleway:wght@200&display=swap');
+
+:root {
+    --error-color: red;
+    --margin-simple: 1rem;
+    --btn-color: #161613;
+    --btn-bg-color: #c0a1ae;
+    --paragraph-font: Raleway, Helvetica, sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    grid-template-rows: 1fr;
+    margin: var(--margin-simple);
+}
+
+#form-container {
+    margin: var(--margin-simple);
+    margin-top: 50px;
+    grid-column: 2 / 3;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--margin-simple);
+    /* align-content: center; */
+    justify-content: center;
+}
+
+form button {
+    align-items: center;
+    width: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--btn-bg-color);
+    color: var(--btn-color);
+    padding: .5rem;
+    border-radius: 10px;
+    border: none;
+    font-family: var(--paragraph-font);
+    font-weight: bold;
+}
+
+#error-message {
+    color: var(--error-color);
+    font-size: smaller;
+}
