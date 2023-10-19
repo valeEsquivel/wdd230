@@ -193,6 +193,30 @@
     footer p {
         font-size: 0.50em;
     }
+
+    /* ?? JOIN PAGE */
+    #form-main {
+        display: grid;
+        grid-template-columns: 100px auto 100px;
+        grid-template-rows: 1fr;
+        margin: 1rem;
+    }
+
+    .radioGroup {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+    }
+
+    .left {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .right {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
 }
 
 @media screen and (min-width: 600px) {

@@ -297,3 +297,81 @@ footer .social img {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
+
+/***************** JOIN PAGE */
+#form-main {
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    grid-template-rows: 1fr;
+    margin: 1rem;
+}
+
+#form-container {
+    margin: 1rem;
+    margin-top: 50px;
+    grid-column: 2 / 3;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    font-family: var(--paragraph-font);
+}
+
+form button {
+    align-items: center;
+    width: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--accent3-color);
+    color: var(--paragraph-color-on-color);
+    padding: .5rem;
+    border-radius: 10px;
+    border: none;
+    font-family: var(--paragraph-font);
+    font-weight: bold;
+}
+
+.radioGroup {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.left {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    text-align: left;
+}
+
+.right {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    text-align: left;
+}
+
+#form-container label {
+    text-align: left;
+    font-weight: bold;
+}
+
+/* ******************* THANK YOU PAGE */
+#thankYou {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 1rem;
+}
+
+#thankYou h3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#thankYou p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
