@@ -235,3 +235,13 @@ footer p {
         opacity: 1;
     }
 }
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-family: var(--paragraph-font);
+    font-size: 1em;
+    color: #505045;
+}

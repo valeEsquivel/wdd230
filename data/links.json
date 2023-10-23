@@ -55,12 +55,12 @@
                     "title": "JS Pen"
                 },
                 {
-                    "url": "week03/reponsive-images.html",
-                    "title": "Responsive Images"
+                    "url": "images/week04.png",
+                    "title": "Combinator Exercises"
                 },
                 {
-                    "url": "week03/bom.html",
-                    "title": "BOM"
+                    "url": "week04/tablebuild.html",
+                    "title": "Table"
                 }
             ]
         },
@@ -84,6 +84,9 @@
                     "title": "OpenWeatherMap.org"
                 }
             ]
+        },
+        {
+            "week": "Week 6"
         }
     ]
 }
