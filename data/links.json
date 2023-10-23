@@ -63,6 +63,27 @@
                     "title": "BOM"
                 }
             ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url": "https://codepen.io/Vale-Esquivel/pen/rNPNyPa",
+                    "title": "JS Pen"
+                },
+                {
+                    "url": "week05/new-ward-members.json",
+                    "title": "Ward Member"
+                },
+                {
+                    "url": "week05/prophets.html",
+                    "title": "Prophets"
+                },
+                {
+                    "url": "week05/weather.html",
+                    "title": "OpenWeatherMap.org"
+                }
+            ]
         }
     ]
 }

@@ -1,0 +1,95 @@
+{
+    "family": [
+        {
+            "familyName": "Esquivel",
+            "dateMovedIn": "1998-12-20",
+            "numberOfMembers": 9,
+            "visitedBishopric": false,
+            "members": [
+                {
+                    "name": "Oscar Esquivel",
+                    "gender": "masculine",
+                    "birthday": "1959-04-24"
+                },
+                {
+                    "name": "Carmen de Esquivel",
+                    "gender": "femenine",
+                    "birthday": "1965-11-07"
+                },
+                {
+                    "name": "María Bonito",
+                    "gender": "femenine",
+                    "birthday": "1941-09-29"
+                },
+                {
+                    "name": "Claudia Esquivel",
+                    "gender": "femenine",
+                    "birthday": "1990-10-24"
+                },
+                {
+                    "name": "Stephanie Esquivel",
+                    "gender": "femenine",
+                    "birthday": "1994-02-09"
+                },
+                {
+                    "name": "Michelle Esquivel",
+                    "gender": "femenine",
+                    "birthday": "1997-02-26"
+                },
+                {
+                    "name": "Valeria Esquivel",
+                    "gender": "femenine",
+                    "birthday": "1999-03-11"
+                },
+                {
+                    "name": "Byron Escalante",
+                    "gender": "masculine",
+                    "birthday": "1994-11-01"
+                },
+                {
+                    "name": "Benjamín Esquivel",
+                    "gender": "masculine",
+                    "birthday": "2022-12-04"
+                }
+            ]
+        },
+        {
+            "familyName": "Cortez",
+            "dateMovedIn": "2001-06-01",
+            "numberOfMembers": 6,
+            "visitedBishopric": false,
+            "members": [
+                {
+                    "name": "Leonel Cortez",
+                    "gender": "masculine",
+                    "birthday": "1970-06-05"
+                },
+                {
+                    "name": "Yesica de Cortez",
+                    "gender": "femenine",
+                    "birthday": "1975-07-08"
+                },
+                {
+                    "name": "Kenneth Cortez",
+                    "gender": "masculine",
+                    "birthday": "2002-10-16"
+                },
+                {
+                    "name": "Osiris Cortez",
+                    "gender": "femenine",
+                    "birthday": "2005-07-06"
+                },
+                {
+                    "name": "Jared Cortez",
+                    "gender": "masculine",
+                    "birthday": "2009-02-03"
+                },
+                {
+                    "name": "Joshua Cortez",
+                    "gender": "masculine",
+                    "birthday": "2013-10-07"
+                }
+            ]
+        }
+    ]
+}
