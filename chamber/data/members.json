@@ -1,0 +1,60 @@
+{
+    "members": [
+        {
+            "name": "Royal Decameron Salinitas",
+            "address": "Acajutla, Sonsonate - El Salvador",
+            "phone": "+503 2209-3000",
+            "website": "www.decameron.com",
+            "image": "images/decameron.png",
+            "membershiplevel": "Platinum"
+        },
+        {
+            "name": "Portezuelo",
+            "address": "Juayua, Sonsonate - El Salvador",
+            "phone": "+503 2265-1111",
+            "website": "https://www.elportezuelo.com/",
+            "image": "images/portezuelo.png",
+            "membershiplevel": "Gold"
+        },
+        {
+            "name": "Anthony's Bakery",
+            "address": "Sonsonate - El Salvador",
+            "phone": "+503 2461-2400",
+            "website": "https://anthonyspasteleria.com/",
+            "image": "images/Logo-Anthonys.webp",
+            "membershiplevel": "VIP"
+        },
+        {
+            "name": "Pupuseria Las Lomas",
+            "address": "San Antonio del Monte, Sonsonate - El Salvador",
+            "phone": "+503 2451-8327",
+            "website": "https://www.instagram.com/las_lomassv/?hl=es",
+            "image": "images/las-lomas.jpg",
+            "membershiplevel": "Medium"
+        },
+        {
+            "name": "MBeauty",
+            "address": "Sonsonate - El Salvador",
+            "phone": "+503 7667-0635",
+            "website": "https://www.instagram.com/mbeauty_facebar/?hl=es",
+            "image": "images/mbeauty.jpg",
+            "membershiplevel": "VIP"
+        },
+        {
+            "name": "Los Olivos Coffee Nursery",
+            "address": "Las Higueras, Sonsonate - El Salvador",
+            "phone": "+503 7435-9679",
+            "website": "https://www.facebook.com/fincalosolivossv/?locale=es_LA",
+            "image": "images/los-olivos.jpg",
+            "membershiplevel": "VIP"
+        },
+        {
+            "name": "Vidri",
+            "address": "Sonsonate - El Salvador",
+            "phone": "+503 2450-4033",
+            "website": "https://www.vidri.com.sv/",
+            "image": "images/Vidri-Alt.webp",
+            "membershiplevel": "Gold"
+        }
+    ]
+}
