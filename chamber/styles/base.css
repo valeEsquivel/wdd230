@@ -280,6 +280,7 @@ footer .social img {
     flex-direction: row;
     list-style: none;
     width: 100%;
+    padding: 0;
 }
 
 .navigation li {
@@ -290,7 +291,7 @@ footer .social img {
     text-align: center;
     color: white;
     text-decoration: none;
-    padding: 35px;
+    /* padding: 35px; */
 }
 
 .navigation li a:hover {
@@ -378,4 +379,52 @@ form button {
 
 legend {
     text-align: left;
+}
+
+/* ? DIRECTORY PAGE */
+.directory {
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    grid-template-rows: 80px 1fr 1fr;
+}
+
+.directory h3 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    text-align: center;
+}
+
+#cards {
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+}
+
+.member {
+    margin: 0.15rem;
+    padding: 0.35rem;
+    border: 2px solid var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member>p {
+    min-height: 30px;
+    font-size: 14px;
+}
+
+.member>a {
+    min-height: 70px;
+    font-size: 14px;
+    margin: 0;
+}
+
+.member>img {
+    width: auto;
+    max-width: 200px;
+    box-shadow: 0 0 30px #777;
+    height: 150px;
+    border: 1px solid #333;
 }
