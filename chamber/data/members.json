@@ -6,7 +6,7 @@
             "phone": "+503 2209-3000",
             "website": "www.decameron.com",
             "image": "images/decameron.png",
-            "membershiplevel": "Platinum"
+            "membershiplevel": "Gold"
         },
         {
             "name": "Portezuelo",
@@ -22,7 +22,7 @@
             "phone": "+503 2461-2400",
             "website": "https://anthonyspasteleria.com/",
             "image": "images/Logo-Anthonys.webp",
-            "membershiplevel": "VIP"
+            "membershiplevel": "Silver"
         },
         {
             "name": "Pupuseria Las Lomas",
@@ -30,7 +30,7 @@
             "phone": "+503 2451-8327",
             "website": "https://www.instagram.com/las_lomassv/?hl=es",
             "image": "images/las-lomas.jpg",
-            "membershiplevel": "Medium"
+            "membershiplevel": "Bronze"
         },
         {
             "name": "MBeauty",
@@ -38,7 +38,7 @@
             "phone": "+503 7667-0635",
             "website": "https://www.instagram.com/mbeauty_facebar/?hl=es",
             "image": "images/mbeauty.jpg",
-            "membershiplevel": "VIP"
+            "membershiplevel": "Silver"
         },
         {
             "name": "Los Olivos Coffee Nursery",
@@ -46,7 +46,7 @@
             "phone": "+503 7435-9679",
             "website": "https://www.facebook.com/fincalosolivossv/?locale=es_LA",
             "image": "images/los-olivos.jpg",
-            "membershiplevel": "VIP"
+            "membershiplevel": "Silver"
         },
         {
             "name": "Vidri",
